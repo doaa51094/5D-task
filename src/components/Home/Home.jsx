@@ -7,12 +7,14 @@ import circle from "../../assets/Vector.png";
 import arrow from "../../assets/Vector 1.png";
 import arrow2 from "../../assets/Arrow_01.svg";
 import Navbar from "../Navbar";
+import Skills from "../Skills/Skills";
+import About from "../About/About";
 
 const Home = () => {
   return (
    <>
     <Navbar />
-    <div className=" grid grid-cols-6 relative">
+    <div className=" grid grid-cols-6 relative pb-24">
       <div className="lg:col-span-3 col-span-6 flex justify-center items-center ">
         <div className="lg:w-9/12 w-[90%] relative">
           <img src={name} className="w-full h-full" alt='user name'/>
@@ -23,7 +25,7 @@ const Home = () => {
             product is easy to use.
           </p>
           <button className="mt-9 font-semibold text-white text-[14px] leading-[36px] flex justify-center 
-          items-center bg-gradient-to-r from-[#B224EF] to-[#7579FF] px-10 py-1.5 rounded-[16px]">
+          items-center bg-gradient-to-r from-[#B224EF] to-[#7579FF] lg:px-10 lg:py-1.5 px-6 py-1 rounded-[16px]">
             Contact Me!
             <div className="relative flex ms-1.5 justify-center items-center">
               <img src={circle} className="w-[20px] relative" alt='circle'/>
@@ -35,7 +37,7 @@ const Home = () => {
           <div className="lg:block hidden absolute bottom-[-2rem] left-[-17%]">
         <img src={patron1} className="w-[60px]" alt='patron'/>
       </div>
-      <div className=" absolute bottom-[-8.8rem] left-[40%]">
+      <div className=" absolute w-1/2  bottom-[-8.88rem]  lg:left-[40%] right-0">
       <img src={arrow2} alt="My SVG Icon" />
       </div>
 
@@ -49,6 +51,8 @@ const Home = () => {
       </div>
      
     </div>
+    <Skills/>
+    <About/>
    </>
   );
 };
