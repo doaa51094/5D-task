@@ -9,6 +9,7 @@ import arrow2 from "../../assets/Arrow_01.svg";
 import Navbar from "../Navbar";
 import Skills from "../Skills/Skills";
 import About from "../About/About";
+import Portfolio from "../Portfolio/Portfolio";
 
 const Home = () => {
   return (
@@ -53,6 +54,7 @@ const Home = () => {
     </div>
     <Skills/>
     <About/>
+    <Portfolio/>
    </>
   );
 };

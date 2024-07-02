@@ -12,7 +12,7 @@ const About = () => {
         About Me
       </h2>
       <div className="vectorCuadros flex justify-center items-center">
-        <div className="relative flex justify-center items-center  w-[75%] mb-40">
+        <div className="relative flex justify-center items-center  w-[70%] mb-40">
           <img src={Colombian} alt="Colombian" className="w-full" />
           <div className="absolute lg:top-28 top-0  lg:-right-6 -right-6">
             <img src={Highlight} alt="Highlight" className="md:w-32 w-16" />
