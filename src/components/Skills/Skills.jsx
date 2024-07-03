@@ -40,7 +40,7 @@ const Skills = () => {
 
       <div className="w-[85%] h-[2px] my-2 bg-[#EDEEFF] mx-auto"></div>
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-4 w-full">
+      <div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-4 w-full lg:mb-24">
         <div className="flex w-full items-start justify-center">
           <img src={Prototyping} alt="Prototyping" className="lg:w-[40%] w-[50%]" />
         </div>
@@ -56,8 +56,8 @@ const Skills = () => {
           <img src={DesignSystem} alt="DesignSystem" className="lg:w-[40%] w-[50%]" />
         </div>
       </div>
-      <div>
-      <img src={patron3} alt="patron de puntos" className="w-24" />
+      <div className="absolute lg:-bottom-20 bottom-[35%] -z-50 skills_patron">
+      <img src={patron3} alt="patron de puntos" className="lg:w-24 w-[3rem] " />
       </div>
       <div className="absolute top-[47%] right-0 rotate-180 lg:block hidden -z-50">
       <img src={patron3} alt="patron de puntos" className="w-24" />
