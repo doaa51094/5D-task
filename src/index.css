@@ -7,7 +7,6 @@
 .about {
   background-image: url('./assets/Vector2.svg');
   background-position: center ; 
-  /* height: 1000px; */
   background-repeat: no-repeat;
   background-size: cover; 
   width:100%;
@@ -15,6 +14,11 @@
   justify-content: center;
   align-items: center;
 
+}
+.footer{
+  background-image: url('./assets/Rectangle\ 20.png');
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
 .vectorCuadros{
   background-image: url('./assets/Vector-Cuadros.png');
@@ -25,3 +29,26 @@
   width:100%;
   height: 100%;
 }
+
+.text-gradient {
+  @apply bg-clip-text text-transparent;
+  background-image: linear-gradient(to right, #B224EF, #7579FF);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 25px;
+}
+.card {
+  position: relative;
+  z-index: 9999;
+  box-shadow: 0 4px 24px 0 rgba(67, 67, 67, 0.18);
+}
+
+.z-0 {
+  z-index: -1;
+}
+.active-link .active-link:block {
+  display: block !important;
+}
+
+
+

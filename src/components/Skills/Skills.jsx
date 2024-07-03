@@ -13,7 +13,7 @@ import DesignSystem from "../../assets/Desing Systems.svg";
 
 const Skills = () => {
   return (
-    <div className="mt-20 relative mb-10">
+    <div className="mt-20 relative mb-10" id="skills">
       <div className="flex justify-start items-center">
         <img src={patron} alt="patron de puntos" className="w-16" />
         <img src={skills} alt="skills" className="w-44 mb-10 ps-5" />

@@ -7,7 +7,7 @@ import Patron5 from "../../assets/Patron de Puntos5.png";
 
 const About = () => {
   return (
-    <div className="about relative flex flex-col justify-center items-center">
+    <div className="about relative flex flex-col justify-center items-center" id='about'>
       <h2 className="text-white font-semibold lg:text-[56px] text-[40px] leading-[67.2px] pt-12">
         About Me
       </h2>

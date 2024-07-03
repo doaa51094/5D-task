@@ -10,11 +10,12 @@ import Navbar from "../Navbar";
 import Skills from "../Skills/Skills";
 import About from "../About/About";
 import Portfolio from "../Portfolio/Portfolio";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
    <>
-    <Navbar />
+    {/* <Navbar /> */}
     <div className=" grid grid-cols-6 relative pb-24">
       <div className="lg:col-span-3 col-span-6 flex justify-center items-center ">
         <div className="lg:w-9/12 w-[90%] relative">
@@ -52,9 +53,10 @@ const Home = () => {
       </div>
      
     </div>
-    <Skills/>
+    {/* <Skills/>
     <About/>
     <Portfolio/>
+    <Footer/> */}
    </>
   );
 };
