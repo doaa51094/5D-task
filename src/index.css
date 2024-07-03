@@ -3,6 +3,8 @@
 @tailwind utilities;
 body {
   font-family: "Poppins", sans-serif;
+  scrollbar-color: transparent transparent;
+
 }
 
 .about {
